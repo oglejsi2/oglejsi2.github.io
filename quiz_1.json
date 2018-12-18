@@ -1,4 +1,8 @@
 {
     "quizName":"First quiz",
-    "quizTitle":"My first quiz"
+    "quizTitle":"My first quiz",
+    "questionsAnswers": [
+    { "question":"my first question","answer":"my first answer"},
+	{ "question":"my secondion","answer":"my second answer"},
+  ]
 }
