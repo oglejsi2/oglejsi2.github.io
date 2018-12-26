@@ -1,10 +1,10 @@
 {
     "quizName":"First quiz",
     "quizTitle":"My first quiz","questionsAnswers": [
-    	{ "question":"my first question","answer":"my first answer"},
-	    { "question":"my second question","answer":"my second answer"},
-	    { "question":"Kdo je bradavičarka","answer":"Bradavičarka je prašič"},
-	    { "question":"Kdo je bradavičar","answer":"Bradavičar je mož od bradavičarke"}
+    	{ "question":"Kdo je odkril teorijo grafov?","answer":"Euler"},
+	    { "question":"Ali je problem Sankt peterburških mostov rešljiv?","answer":""},
+	    { "question":"Kdo je bradavičarka?","answer":"Bradavičarka je prašič"},
+	    { "question":"Kdo je bradavičar?","answer":"Bradavičar je mož od bradavičarke"}
 	
   ]
 }
