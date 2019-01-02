@@ -3,7 +3,7 @@
     "quizTitle":"My first quiz","questionsAnswers": [
     	{ "question":"Kdo je odkril teorijo grafov?","answer":"Euler"},
 	    { "question":"Ali je problem  Königsbergovih mostov rešljiv?","answer":"Ne","suggestions":["Da","Ne"]},
-	    { "question":"Kdo je bradavičarka?","answer":"Bradavičarka je prašič"},
+	    { "question":"Kdo je bradavičarka?","answer":"Bradavičarka je prašič","suggestions":["Bradavičarka je prašič","Bradavičarka je ženska z bradavico"]},
 	    { "question":"Kdo je bradavičar?","answer":"Bradavičar je mož od bradavičarke"}
 	
   ]
