@@ -1,10 +1,6 @@
 {
     "quizName":"Avstralija",
-    "quizTitle":"My first quiz",
-    "quizLinks":"Kamele v avstraliji	https://www.druzina.si/ICD/spletnastran.nsf/clanek/59-1-Razvedrilo-1
-Kljunaš			https://www.bodieko.si/kljunas-najbolj-nenavaden-sesalec-nasega-planeta
-			https://sl.wikipedia.org/wiki/Kljunati_je%C5%BEki
-Krokodili		https://www.dnevnik.si/1042832742",
+    "quizTitle":"Avstralija",
     "questionsAnswers": [
     	{ "question":"V Avstraliji živijo kamele?","answer":"Da","suggestions":["Da","Ne"]},
 	    { "question":"Kljunaš je strupen?","answer":"Da","suggestions":["Da","Ne"]},
