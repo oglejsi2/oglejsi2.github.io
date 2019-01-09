@@ -1,0 +1,9 @@
+{
+    "quizName":"Prvi kviz",
+    "quizTitle":"My first quiz","questionsAnswers": [
+    	{ "question":"V Avstraliji živijo kamele?","answer":"Da","suggestions":["Da","Ne"]},
+	    { "question":"Kljunaš je strupen?","answer":"Da","suggestions":["Da","Ne"]},
+	    { "question":"Kljunaš je edini sesalec, ki leže jajca?","answer":"Ne","suggestions":["Da","Ne"]},
+	    { "question":"Označi napačen odgovor. Krokodili živijo v ","answer":"Ameriki","suggestions":["Avstraliji","Afriki","Ameriki"]}	
+  	]
+}
