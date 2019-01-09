@@ -6,6 +6,8 @@
 	    { "question":"Kljunaš je edini sesalec, ki leže jajca?","answer":"Ne","suggestions":["Da","Ne"]},
 	    { "question":"Označi napačen odgovor. Krokodili živijo v ","answer":"Ameriki","suggestions":["Avstraliji","Afriki","Ameriki"]},
 	    { "question":"Koala je ogrožena ker","answer":"Je izbirčna pri hrani","suggestions":["Ima veliko sovražnikov","Je ibirčna pri hrani","Jo ogrožajo ljudje"]},
-	    { "question":"Označi napačen odgovor. Krokodili živijo v ","answer":"Ameriki","suggestions":["Avstraliji","Afriki","Ameriki"]}	    
+	    { "question":"Avstralija nima aktivnih vulkanov","answer":"Da","suggestions":["Da","Ne"]},
+	    { "question":"Avstralopiteki so prvotni prebivalci Avstralije","answer":"Ne","suggestions":["Da","Ne"]},
+	    { "question":"Aborigini so prvotni prebivalci Avstralije","answer":"Da","suggestions":["Da","Ne"]}
   	]
 }
