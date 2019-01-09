@@ -1,8 +1,10 @@
 {
     "quizName":"Avstralija",
     "quizTitle":"Avstralija",
+    "quizLinks":"link1",
     "questionsAnswers": [
-    	{ "question":"V Avstraliji živijo kamele?","answer":"Da","suggestions":["Da","Ne"]},
+	    {"question":"Test?","answer":"Da","suggestions":["Da","Ne"]},
+    	    {"question":"V Avstraliji živijo kamele?","answer":"Da","suggestions":["Da","Ne"]},
 	    { "question":"Kljunaš je strupen?","answer":"Da","suggestions":["Da","Ne"]},
 	    { "question":"Kljunaš je edini sesalec, ki leže jajca?","answer":"Ne","suggestions":["Da","Ne"]},
 	    { "question":"Označi napačen odgovor. Krokodili živijo v ","answer":"Ameriki","suggestions":["Avstraliji","Afriki","Ameriki"]},
