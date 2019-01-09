@@ -1,9 +1,10 @@
 {
     "quizName":"Avstralija",
     "quizTitle":"Avstralija",
-    "quizLinks":"link1",
+    "quizLinks":"link1
+	link2",
     "questionsAnswers": [
-	    {"question":"Test?","answer":"Da","suggestions":["Da","Ne"]},
+	    {"question":"Test 1 ?","answer":"Da","suggestions":["Da","Ne"]},
     	    {"question":"V Avstraliji živijo kamele?","answer":"Da","suggestions":["Da","Ne"]},
 	    { "question":"Kljunaš je strupen?","answer":"Da","suggestions":["Da","Ne"]},
 	    { "question":"Kljunaš je edini sesalec, ki leže jajca?","answer":"Ne","suggestions":["Da","Ne"]},
