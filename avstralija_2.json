@@ -1,5 +1,5 @@
 {
-    "quizName":"Kviz o avstraliji",
+    "quizName":"First quiz",
     "quizTitle":"My first quiz","questionsAnswers": [
     	{ "question":"V Avstraliji živijo kamele?","answer":"Da","suggestions":["Da","Ne"]},
 	    { "question":"Kljunaš je strupen?","answer":"Da","suggestions":["Da","Ne"]},
