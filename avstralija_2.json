@@ -1,9 +1,8 @@
 {
     "quizName":"Avstralija",
     "quizTitle":"Avstralija",
-    "quizLinks":"Kamele v avstraliji č https://www.druzina.si/ICD/spletnastran.nsf/clanek/59-1-Razvedrilo-1",
+    "quizLinks":"Kamele v avstraliji č https://www.druzina.si/ICD/spletnastran.nsf/clanek/59-1-Razvedrilo-1 š",
     "questionsAnswers": [
-	    {"question":"Test 1 ?","answer":"Da","suggestions":["Da","Ne"]},
     	    {"question":"V Avstraliji živijo kamele?","answer":"Da","suggestions":["Da","Ne"]},
 	    { "question":"Kljunaš je strupen?","answer":"Da","suggestions":["Da","Ne"]},
 	    { "question":"Kljunaš je edini sesalec, ki leže jajca?","answer":"Ne","suggestions":["Da","Ne"]},
