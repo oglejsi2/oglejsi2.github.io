@@ -1,5 +1,5 @@
 {
-    "quizName":"Prvi kviz",
+    "quizName":"Kviz o avstraliji",
     "quizTitle":"My first quiz","questionsAnswers": [
     	{ "question":"V Avstraliji živijo kamele?","answer":"Da","suggestions":["Da","Ne"]},
 	    { "question":"Kljunaš je strupen?","answer":"Da","suggestions":["Da","Ne"]},
@@ -8,6 +8,7 @@
 	    { "question":"Koala je ogrožena ker","answer":"Je izbirčna pri hrani","suggestions":["Ima veliko sovražnikov","Je ibirčna pri hrani","Jo ogrožajo ljudje"]},
 	    { "question":"Avstralija nima aktivnih vulkanov","answer":"Da","suggestions":["Da","Ne"]},
 	    { "question":"Avstralopiteki so prvotni prebivalci Avstralije","answer":"Ne","suggestions":["Da","Ne"]},
-	    { "question":"Aborigini so prvotni prebivalci Avstralije","answer":"Da","suggestions":["Da","Ne"]}
+	    { "question":"Prvi evropski naseljenci v Avstraliji so bili","answer":"Kaznjenci","suggestions":["Kmetje","Kaznjenci","Mornarji"]},
+	    { "question":"Avstralci vozijo po desni","answer":"Ne","suggestions":["Da","Ne"]}
   	]
 }
