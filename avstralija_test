@@ -12,7 +12,7 @@
 		}
 	],
 	"questionsAnswers": [{
-			"question": "V Avstraliji živijo kamele?",
+			"question": "V Avstraliji\n živijo kamele?",
 			"answer": "Da",
 			"suggestions": ["Da", "Ne"]
 		},
