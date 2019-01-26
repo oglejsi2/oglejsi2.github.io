@@ -13,6 +13,10 @@ form {
     
 }
 
+textarea {
+    font-size: 18px;    
+}
+
 ul {
     list-style-type: none;
     margin: 0;
@@ -23,6 +27,22 @@ ul {
 
 .menuitem {
   display: inline;
+}
+
+/*
+p {
+    background-color: #c4fffb; 
+    font-size: 35px;
+    color: royalblue;
+}
+*/
+
+p.serif {
+  font-family: "Times New Roman", Times, serif;
+}
+
+p.sansserif {
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 h1 {
@@ -40,11 +60,7 @@ header {
   width: 100%;
 }
 
-p {
-    background-color: #c4fffb; 
-    font-size: 35px;
-    color: royalblue;
-}
+
 
 form {
     background-color: #c4fffb;  
