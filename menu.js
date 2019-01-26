@@ -3,7 +3,7 @@ var text;
 var textOut=["Programiranje","Zanima me","Za otroke"];
 var textOutLinks=["https://www.google.com/search?source=hp&ei=xJM_XILWKMTHrgTg_K_ICg&q=programiranje",
                 "https://www.google.com/search?source=hp&ei=xJM_XILWKMTHrgTg_K_ICg&q=kviz",
-                "https://www.google.com/search?source=hp&ei=xJM_XILWKMTHrgTg_K_ICg&q=zaotroke",
+                "zaOtrokeMenu.html",
                 "https://www.google.com/search?source=hp&ei=xJM_XILWKMTHrgTg_K_ICg&q=b",
                 "https://www.google.com/search?source=hp&ei=xJM_XILWKMTHrgTg_K_ICg&q=test"];
 var found=0;
@@ -73,6 +73,7 @@ var scene ;
                   camera.position.z = 10
                   renderer.setClearColor(0xdddddd)
                   renderer.setClearColor("#0066cc");
+                  renderer.setClearColor("darkblue");
                   renderer.setSize(window.innerWidth, window.innerHeight)
                   renderer.shadowMap.enabled = false
                   renderer.shadowMapSoft = true
