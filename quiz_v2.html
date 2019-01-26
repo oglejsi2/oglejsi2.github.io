@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+         <link rel="stylesheet" href="style.css" type="text/css"/>
+        <title>Quiz</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <ul class="menuitem">
+            <a href="https://sl.wikipedia.org/wiki/Enogrba_kamela" target="_blank"><li class="menuitem">Kamele</li></a>
+            <a href="https://sl.wikipedia.org/wiki/Kljuna%C5%A1i" target="_blank"><li class="menuitem">Kljunaš</li></a>
+            <a href="https://sl.wikipedia.org/wiki/Koala" target="_blank"><li class="menuitem">Koala</li></a>
+            <a href="https://sl.wikipedia.org/wiki/Avstralija" target="_blank"><li class="menuitem">Avstralija</li></a>
+            <a href="https://sl.wikipedia.org/wiki/Lucy" target="_blank"><li class="menuitem">Avstralopitek</li></a>
+            
+            
+        </ul>
+        <script src="quiz_v2.js"></script>        
+        <header>
+        </header>
+        
+        <div>
+            <form onsubmit="return nextQuestion()" id="form1">
+              <input type="text" id="question" value="question" disabled>
+              <br>
+              <input type="text"  id="answer" placeholder="answer" >
+                    <section id="brRadioButtonGroup" >
+                        <div class="text-left">                       
+                        </div>
+                    </section>
+                            <button type='button' onclick="nextQuestion()">Naslednje vprašanje</button>  
+            </form>   
+
+        </div>
+        <script>         
+             var locQuestion=document.getElementById("question");
+             getJsonQuestionsV2('https://oglejsi2.github.io/avstralija_test.json');
+             <!--getJsonQuestionsV2('https://cors.io/?https://docs.google.com/uc?id=1eOvJK9_ljHXZHTsjOeDaXmLPCbMkOLa2&export=open');-->             
+             <!--https://drive.google.com/uc?id=1dtzUzGQRYJn2S9uVub_4mD7SftlBY-tS&export=open-->
+             <!--https://drive.google.com/drive/folders?id=1fzoapN3E9vR-fIb7Y5HQEfUkKcYoWVOf&export=open ne deluje z direktorijem-->             
+             <!--getJsonQuestionsV2('https://cors.io/?https://docs.google.com/uc?id=1uaQIT09o-3tYD3XAgMZ75JFJcjSjiuW&export=open');-->
+             var locQuestion1=document.getElementById('question');                      
+        </script>  
+        
+        <script>
+          console.log("3d script 10");
+          var scene = new THREE.Scene();
+          var camera = new THREE.PerspectiveCamera(45, window.innerWidth/window.innerHeight,.1, 1000)
+          var renderer = new THREE.WebGLRenderer()
+          camera.position.x = 40
+          camera.position.y = 40
+          camera.position.z = 40
+          renderer.setClearColor(0xdddddd)
+          renderer.setClearColor("#0066cc");
+          renderer.setSize(window.innerWidth, window.innerHeight/2)
+          renderer.shadowMap.enabled = false
+          renderer.shadowMapSoft = true
+          //GEOMETRY
+          var cubeGeo = new THREE.BoxGeometry(5,5,5)
+          var cubeMat = new THREE.MeshLambertMaterial({color: 0xff3300})
+          var cubeMat = new THREE.MeshLambertMaterial({color: "red"})
+          
+          var cube = new THREE.Mesh(cubeGeo, cubeMat)
+          cube.castShadow = true;
+          cube.position.y = 2.5;
+          var planeGeo = new THREE.PlaneGeometry(100,100,100)
+          var planeMat = new THREE.MeshLambertMaterial("c4fffb")
+          var plane = new THREE.Mesh(planeGeo,planeMat)
+          plane.rotation.x = -.5 * Math.PI
+          plane.receiveShadow = true;
+          var spotlight = new THREE.SpotLight("c4fffb")
+          spotlight.castShadow = true
+          spotlight.position.set(30,60,60)
+          // r scene.add(plane)
+          scene.add(spotlight)
+          // scene.add(cube)
+          camera.lookAt(scene.position)
+          document.body.appendChild(renderer.domElement)
+          var increment = 0
+          var render = function () {
+            increment += 0.01
+            requestAnimationFrame( render );
+            cube.position.y += Math.sin(increment) * 0.05
+            cube.rotation.y +=  0.01
+            spinCamera()
+            renderer.render(scene, camera);
+          };
+         loadFont("rezultat");
+          render();
+          /*
+          HELPERS
+          ~~~~~~~~~~~~~~~~~~~*/
+          //SETTINGS
+          var text = "aems",
+                height = 2,
+                size = 10,
+                curveSegments = 10,
+                bevelThickness = 1,
+                bevelSize = 0.3,
+                bevelSegments = 3,
+                bevelEnabled = true,
+                font = undefined
+          var rotation = 0
+          function spinCamera(){
+            rotation += 0.005
+            camera.position.z = Math.sin(rotation) * 80;
+            camera.position.x = Math.cos(rotation) * 80;
+            camera.lookAt(scene.position)
+          }
+
+
+        </script>
+        
+        
+    </body>
+    
+
+</html>
